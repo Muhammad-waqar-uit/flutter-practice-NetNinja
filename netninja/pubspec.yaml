@@ -76,7 +76,7 @@ flutter:
 fonts:
   - family: BungeeSpice
     fonts:
-      - asset: fonts/BungeeSpice-Regular.ttf
+      - asset: fonts/Bungee_Spice/BungeeSpice-Regular.ttf
 
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

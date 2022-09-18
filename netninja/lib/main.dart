@@ -18,10 +18,7 @@ class test extends StatelessWidget {
         centerTitle: true,
         backgroundColor: const Color.fromARGB(255, 99, 197, 120),
       ),
-      body: const Center(
-          child: Image(
-              image: NetworkImage(
-                  'https://static.remove.bg/remove-bg-web/c4b29bf4b97131238fda6316e24c9b3606c18000/assets/start-1abfb4fe2980eabfbbaaa4365a0692539f7cd2725f324f904565a9a744f8e214.jpg'))),
+      body: Center(child: Image.asset('assets/space-1.jpg')),
       // ignore: prefer_const_constructors
       floatingActionButton: FloatingActionButton(
         onPressed: () {

@@ -1,9 +1,18 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(MaterialApp(
-    debugShowCheckedModeBanner: false,
-    home: Scaffold(
+// ignore: prefer_const_constructors
+void main() => runApp(MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: const test(),
+    ));
+
+// ignore: camel_case_types
+class test extends StatelessWidget {
+  const test({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
       appBar: AppBar(
         title: const Text('Hello App'),
         centerTitle: true,
@@ -27,9 +36,9 @@ void main() {
         tooltip: 'Increment Counter',
         backgroundColor: const Color.fromARGB(255, 99, 197, 120),
         hoverColor: const Color.fromARGB(255, 20, 112, 27),
-        child: const Text('click'),
+        child: const Text('click!'),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
-    ),
-  ));
+    );
+  }
 }

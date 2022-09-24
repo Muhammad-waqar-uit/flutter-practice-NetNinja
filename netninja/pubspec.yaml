@@ -36,10 +36,3 @@ flutter:
          - asset: fonts/RobotoMono-Regular.ttf
          - asset: fonts/RobotoMono-Bold.ttf
 
-    - family: Spice
-      fonts:
-         - asset: fonts/BungeeSpice-Regular.tff
-
-    - family: Indie
-      fonts:
-        - asset: fonts/IndieFlower-Regular.tff

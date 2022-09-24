@@ -20,30 +20,13 @@ class test extends StatelessWidget {
       ),
       // ignore: prefer_const_constructors
       body: Center(
-        child: const Text(
-          'Hello World!',
-          style: TextStyle(
-              fontSize: 24,
-              fontWeight: FontWeight.bold,
-              letterSpacing: 2.0,
-              color: Color.fromARGB(255, 11, 121, 68),
-              fontFamily: 'Raleway'),
-        ),
-      ),
-      // ignore: prefer_const_constructors
-      floatingActionButton: FloatingActionButton(
+          child: IconButton(
+        icon: const Icon(Icons.alternate_email),
         onPressed: () {
-          null;
+          // ignore: avoid_print
+          print('Hello');
         },
-        tooltip: 'Increment Counter',
-        backgroundColor: const Color.fromARGB(255, 99, 197, 120),
-        hoverColor: const Color.fromARGB(255, 20, 112, 27),
-        child: const Text(
-          'click!',
-          style: TextStyle(fontFamily: 'Raleway'),
-        ),
-      ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      )),
     );
   }
 }
